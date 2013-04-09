@@ -116,5 +116,10 @@ void DNAstack::outputStandardGene(FILE* f)
 	{
 		cursor=first;
 		while(cursor->next!=NULL)
+		{
+			fputc(f,cursor->returnStan());
+			cursor=cursor->next;
+		}
+		fputc(f,cursor->returnStan());
 	}
 }
