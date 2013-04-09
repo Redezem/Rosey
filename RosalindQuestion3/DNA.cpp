@@ -65,5 +65,56 @@ void DNAstack::next()
 			cursor=first;
 			return;
 		}
+	} else if(cursor->next==NULL)
+	{
+		printf("Error, end of list\n");
+		return;
+	}else{
+		cursor==cursor->next;
+	}
+}
+
+void DNAstack::prev()
+{
+	if(cursor==NULL)
+	{
+		if(last==NULL)
+		{
+			printf("Error: list empty and prev given D:\n");
+			return;
+		}else{
+			cursor=last;
+			return;
+		}
+	} else if(cursor->next==NULL)
+	{
+		printf("Error, end of list\n");
+		return;
+	}else{
+		cursor=cursor->next;
+	}
+}
+
+void DNAstack::push(char inChar)
+{
+	DNApair* newPair = new DNApair;
+	newPair->insertPair(inChar);
+	if(first==NULL)
+	{
+		first=newPair;
+		last=newPair;
+	}else
+	{
+		last->next=newPair;
+		last=newPair;
+	}
+}
+
+void DNAstack::outputStandardGene(FILE* f)
+{
+	if(first!=NULL)
+	{
+		cursor=first;
+		while(cursor->next!=NULL)
 	}
 }

@@ -13,7 +13,7 @@ int _tmain(int argc, _TCHAR* argv[])
 	FILE* in;
 	FILE* out;
 	DNAstack theStack;
-
+	
 	in=fopen("in.txt","r");
 	out=fopen("out.txt","w");
 
