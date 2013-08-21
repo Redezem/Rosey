@@ -5,6 +5,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RosalindQuestion2", "Rosali
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RosalindQuestion3", "RosalindQuestion3\RosalindQuestion3.vcxproj", "{670DA389-8C0B-4B9C-94AA-D97458D8E143}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LEXF", "LEXF\LEXF.vcxproj", "{B867BF83-58FB-4549-8529-18ADF2ADC12B}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PROT", "PROT\PROT.vcxproj", "{E05CAF3E-D91F-42F1-8424-6D796F15444A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -19,6 +23,14 @@ Global
 		{670DA389-8C0B-4B9C-94AA-D97458D8E143}.Debug|Win32.Build.0 = Debug|Win32
 		{670DA389-8C0B-4B9C-94AA-D97458D8E143}.Release|Win32.ActiveCfg = Release|Win32
 		{670DA389-8C0B-4B9C-94AA-D97458D8E143}.Release|Win32.Build.0 = Release|Win32
+		{B867BF83-58FB-4549-8529-18ADF2ADC12B}.Debug|Win32.ActiveCfg = Debug|Win32
+		{B867BF83-58FB-4549-8529-18ADF2ADC12B}.Debug|Win32.Build.0 = Debug|Win32
+		{B867BF83-58FB-4549-8529-18ADF2ADC12B}.Release|Win32.ActiveCfg = Release|Win32
+		{B867BF83-58FB-4549-8529-18ADF2ADC12B}.Release|Win32.Build.0 = Release|Win32
+		{E05CAF3E-D91F-42F1-8424-6D796F15444A}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E05CAF3E-D91F-42F1-8424-6D796F15444A}.Debug|Win32.Build.0 = Debug|Win32
+		{E05CAF3E-D91F-42F1-8424-6D796F15444A}.Release|Win32.ActiveCfg = Release|Win32
+		{E05CAF3E-D91F-42F1-8424-6D796F15444A}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
